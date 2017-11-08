@@ -7,10 +7,10 @@ $font-family: "Roboto", sans-serif !default;
 /**
  * Colors
  */
-$priceco-blue: #4DA6E2;
-$priceco-red: #ED1B2D;
-$priceco-yellow: #FDCD07;
-$priceco-blue-gradient: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(141,198,236,1) 100%);
+$priceco-blue: #4DA6E2 !default;
+$priceco-red: #ED1B2D !default;
+$priceco-yellow: #FDCD07 !default;
+$priceco-blue-gradient: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(141,198,236,1) 100%) !default;
 
 /**
  * Images
@@ -22,7 +22,7 @@ $priceco-blue-gradient: radial-gradient(ellipse at center, rgba(255,255,255,1) 0
 // $priceco-price-match: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/price-match.png' );
 // $priceco-three-for-two: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/three-for-two.png' );
 
-$priceco-logo: inline-image( './node_modules/@priceco/style/assets/priceco_logo.svg' );
-$priceco-price-bg: inline-image( './node_modules/@priceco/style/assets/priceco-price_tag.svg' );
-$priceco-price-match: inline-image( './node_modules/@priceco/style/assets/price-match.png' );
-$priceco-three-for-two: inline-image( './node_modules/@priceco/style/assets/three-for-two.png' );
+$priceco-logo: inline-image( './node_modules/@priceco/style/assets/priceco_logo.svg' ) !default;
+$priceco-price-bg: inline-image( './node_modules/@priceco/style/assets/priceco-price_tag.svg' ) !default;
+$priceco-price-match: inline-image( './node_modules/@priceco/style/assets/price-match.png' ) !default;
+$priceco-three-for-two: inline-image( './node_modules/@priceco/style/assets/three-for-two.png' ) !default;
