@@ -1,5 +1,5 @@
-![Priceco logo](/assets/priceco_logo.svg)
 # Style guide and HTML elements
+![Priceco logo](/assets/priceco_logo.svg)
 
 This repository contains extracted style elements for templates for a demo client in [Adapt Retail](https://adaptretail.com).
 We use this style in the following productions.
