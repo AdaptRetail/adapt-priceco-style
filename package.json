@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/AdaptRetail/priceco-style/issues"
   },
-  "homepage": "https://github.com/AdaptRetail/priceco-style#readme"
+  "homepage": "https://github.com/AdaptRetail/priceco-style#readme",
+  "dependencies": {}
 }
