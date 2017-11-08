@@ -43,7 +43,8 @@ Make sure there is no space between the price integer and the price decimal. Els
 
 #### Bomb
 
-IMAGE
+##### Price match
+![Price match](/assets/price-match.png)
 
 ##### HTML
 ```html
