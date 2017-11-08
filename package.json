@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LasseHaslev/adapt-priceco-style.git"
+    "url": "git+https://github.com/AdaptRetail/priceco-style.git"
   },
   "author": "Lasse S. Haslev <lasse@haslev.no>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LasseHaslev/adapt-priceco-style/issues"
+    "url": "https://github.com/AdaptRetail/priceco-style/issues"
   },
-  "homepage": "https://github.com/LasseHaslev/adapt-priceco-style#readme"
+  "homepage": "https://github.com/AdaptRetail/priceco-style#readme"
 }
