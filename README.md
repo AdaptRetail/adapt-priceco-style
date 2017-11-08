@@ -1,5 +1,14 @@
-# Priceco style guide
-![Priceco logo variable](/assets/priceco_logo.svg)
+![Priceco logo](/assets/priceco_logo.svg)
+# Style guide and HTML elements
+
+This repository contains extracted style elements for templates for a demo client in [Adapt Retail](https://adaptretail.com).
+We use this style in the following productions.
+- [Banner template](https://github.com/AdaptRetail/banner-template)
+- [Print template](https://github.com/AdaptRetail/print-template)
+- [Video template](https://github.com/AdaptRetail/video-template)
+
+The purpose is to minimize the code you need to write for each project.
+When you have extracted the code, you can change it one place, and others get automatically updated.
 
 ## Install
 ```js
@@ -16,14 +25,43 @@ Import the full style after the `variables`, `mixins` and `functions`.
 
 If you need to divide it up you can import section for section.
 
+### Utilities
+
+Contains the variables.
+
 ```sass
-@import "node_modules/@priceco/style/src/Utilities/_.scss";
+@import "node_modules/@priceco/style/src/Utilities/_all.scss";
+```
+
+### Elements
+
+Import after the `mixins` and the `functions`.
+
+```sass
+@import "node_modules/@priceco/style/src/Utilities/_all.scss";
 ```
 
 ### Variables
 
-All the variables are set in `src/style/Utilities/Variables.scss`.
-It includes colors, but also `base64` encoded strings of the assets.
+All Sass the variables are set in `src/style/Utilities/Variables.scss`.
+
+#### Colors
+
+Priceco main colors.
+
+- `$priceco-blue`
+- `$priceco-red`
+- `$priceco-yellow`
+- `$priceco-blue-gradient`
+
+#### Images
+
+Contains `base64` encoded strings of the image assets.
+
+- `$priceco-logo`
+- `$priceco-price-bg`
+- `$priceco-price-match`
+- `$priceco-three-for-two`
 
 An example of this is the `$priceco-logo` variable that contains a base64 string of the priceco logo.
 
@@ -35,14 +73,16 @@ An example of this is the `$priceco-logo` variable that contains a base64 string
 
 ### Elements
 
+The elements are built on a super responsive way, so it can be used in both print productions and responsive web banners in [Adapt Retail](https://adaptretail.com).
+
 #### Price
 
 ##### HTML
 
 ![Priceco price tag](/assets/screenshots/price.png)
 
-Make sure there is no space between the price integer and the price decimal. Else there is getting a large space between them.
-
+> Make sure there is no space between the `price integer` and the `price decimal`.
+> Else there is getting a large space between them.
 
 ```html
 <div class="price">
