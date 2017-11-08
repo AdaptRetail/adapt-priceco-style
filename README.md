@@ -46,11 +46,12 @@ Make sure there is no space between the price integer and the price decimal. Els
 ##### Price match
 ![Price match](/assets/price-match.png)
 
-##### HTML
 ```html
-<!-- Price match bomb/tag -->
 <div class="bomb is-pricematch"></div>
+```
 
-<!-- Three for two bomb/tag -->
+##### Three for two
+![Price match](/assets/three-for-two.png)
+```html
 <div class="bomb is-threefortwo"></div>
 ```
