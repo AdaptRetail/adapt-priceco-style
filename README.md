@@ -7,17 +7,28 @@ npm install https://github.com/AdaptRetail/priceco-style
 
 ## Usage
 
-Import the style after the `variables`, `mixins` and `functions`.
+Import the full style after the `variables`, `mixins` and `functions`.
 
 ```sass
 @import "node_modules/@priceco/style/src/main.scss";
 ```
 
-## Elements
+If you need to divide it up you can import section for section.
 
-### Price
+```sass
+@import "node_modules/@priceco/style/src/Utilities/_.scss";
+```
 
-#### HTML
+### Variables
+
+All the variables are set in `src/style/Utilities/Variables.scss`.
+It includes colors, but also `base64` encoded strings of the assets.
+
+### Elements
+
+#### Price
+
+##### HTML
 
 IMAGE
 
@@ -30,11 +41,11 @@ Make sure there is no space between the price integer and the price decimal. Els
 </div>
 ```
 
-### Bomb
+#### Bomb
 
 IMAGE
 
-#### HTML
+##### HTML
 ```html
 <!-- Price match bomb/tag -->
 <div class="bomb is-pricematch"></div>
