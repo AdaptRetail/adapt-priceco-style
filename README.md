@@ -1,4 +1,5 @@
 # Priceco style guide
+![Priceco logo variable](/assets/priceco_logo.svg)
 
 ## Install
 ```js
@@ -24,8 +25,7 @@ If you need to divide it up you can import section for section.
 All the variables are set in `src/style/Utilities/Variables.scss`.
 It includes colors, but also `base64` encoded strings of the assets.
 
-An example of this is the `$priceco-logo` variable that contains a base64 string of
-![Priceco logo variable](/assets/priceco_logo.svg)
+An example of this is the `$priceco-logo` variable that contains a base64 string of the priceco logo.
 
 ```scss
 .logo {
