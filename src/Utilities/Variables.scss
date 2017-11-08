@@ -1,3 +1,21 @@
+/**
+ * Priceco style guide and elements
+ */
 $font-family: "Roboto", sans-serif !default;
 
-$priceco-gradient: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(141,198,236,1) 100%);
+
+/**
+ * Colors
+ */
+$priceco-blue: #4DA6E2;
+$priceco-red: #ED1B2D;
+$priceco-yellow: #FDCD07;
+$priceco-blue-gradient: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(141,198,236,1) 100%);
+
+/**
+ * Images
+ */
+$priceco-logo: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/priceco_logo.svg?token=ADgDDzBEqRX0rT9J2gE_H7BCpvCzb6oJks5aDH5hwA%3D%3D' );
+$priceco-price-bg: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/priceco-price_tag.svg?token=ADgDD6vrmW682r9JR-NIUlP4YuJRvD8Pks5aDH4GwA%3D%3D' );
+$priceco-price-match: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/price-match.png?token=ADgDDyy8AzQqKbPdbIiH8syY0aI0WQQgks5aDH6fwA%3D%3D' );
+$priceco-three-for-two: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/three-for-two.png?token=ADgDD4-2R_l3DIMBpYuwGpu_Ewl4gTaQks5aDH6GwA%3D%3D' );
