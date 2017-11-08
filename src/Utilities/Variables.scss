@@ -14,8 +14,15 @@ $priceco-blue-gradient: radial-gradient(ellipse at center, rgba(255,255,255,1) 0
 
 /**
  * Images
+ * Cause of there is a strange error when inlineing svg from github, we use the local package in node_modules.
  */
-$priceco-logo: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/priceco_logo.svg?token=ADgDDzBEqRX0rT9J2gE_H7BCpvCzb6oJks5aDH5hwA%3D%3D' );
-$priceco-price-bg: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/priceco-price_tag.svg?token=ADgDD6vrmW682r9JR-NIUlP4YuJRvD8Pks5aDH4GwA%3D%3D' );
-$priceco-price-match: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/price-match.png?token=ADgDDyy8AzQqKbPdbIiH8syY0aI0WQQgks5aDH6fwA%3D%3D' );
-$priceco-three-for-two: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/three-for-two.png?token=ADgDD4-2R_l3DIMBpYuwGpu_Ewl4gTaQks5aDH6GwA%3D%3D' );
+
+// $priceco-logo: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/priceco_logo.svg' );
+// $priceco-price-bg: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/priceco-price_tag.svg' );
+// $priceco-price-match: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/price-match.png' );
+// $priceco-three-for-two: inline-image( 'https://raw.githubusercontent.com/LasseHaslev/adapt-priceco-style/master/assets/three-for-two.png' );
+
+$priceco-logo: inline-image( './node_modules/@priceco/style/assets/priceco_logo.svg' );
+$priceco-price-bg: inline-image( './node_modules/@priceco/style/assets/priceco-price_tag.svg' );
+$priceco-price-match: inline-image( './node_modules/@priceco/style/assets/price-match.png' );
+$priceco-three-for-two: inline-image( './node_modules/@priceco/style/assets/three-for-two.png' );
