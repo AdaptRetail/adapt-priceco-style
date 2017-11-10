@@ -1,4 +1,8 @@
+$bomb-font-size: 1em !default;
+
 .bomb {
+
+    font-size: $bomb-font-size;
 
     &.is-pricematch {
         @include background-image( $priceco-price-match );
